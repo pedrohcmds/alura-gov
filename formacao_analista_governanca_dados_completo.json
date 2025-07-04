@@ -1,0 +1,1034 @@
+{
+  "definicao": "O Analista de Governança de Dados formado por esta trilha será um profissional apto a estruturar, implementar e sustentar estratégias e processos de governança de dados nas organizações, sejam esses dados estruturados ou não estruturados. Atuará como elo entre áreas técnicas e de negócio, promovendo qualidade, segurança, conformidade e valor aos dados.",
+  "ementa": [
+    {
+      "nivel": "Nivelamento",
+      "subnivel": "Nível I",
+      "objetivos_gerais": [
+        "Compreender o papel dos dados nas organizações.",
+        "Familiarizar-se com os conceitos básicos de dados.",
+        "Iniciar o uso de ferramentas de consulta a dados.",
+        "Introduzir conceitos de programação e manipulação de dados"
+      ],
+      "blocos_tematicos": [
+        {
+          "nome": "Alfabetização de dados",
+          "descricao": "Breve histórico da importância dos dados nas instituições. Como a presença de dados impacta diferentes camadas da instituição. ",
+          "projetos": [],
+          "hard_skills": [
+            "Identificar diferentes tipos de dados e suas caracteristicas",
+            "Identificar a importância dos dados nas instituições",
+            "Compreender a evolução do papel dos dados nas intituições"
+          ],
+          "soft_skills": [
+            "Compreender o impacto dos dados para as organizações",
+            "Identificar dados como ativos relevantes e de onde se extrai valor nas insituições",
+            "Endender que para extair valor dos dados é ncessário conhecimento de negócio e capacidades técnicas para extraí-los, manipulá=-los e colocalos em contexto"
+          ],
+          "ferramentas_principais": [
+            "Draw.io"
+          ],
+          "cursos": []
+        },
+        {
+          "nome": "Definições Fundamentais de dados",
+          "descricao": "Dados estruturados. Dados não estruturados. Características fundamentais dos dados. ",
+          "projetos": [],
+          "hard_skills": [
+            "Identificar características de dados",
+            "Caracterizar dados estruturados e não estruturados"
+          ],
+          "soft_skills": [
+            "Pensamento crítico",
+            "Decomposição de problemas"
+          ],
+          "ferramentas_principais": [],
+          "cursos": []
+        },
+        {
+          "nome": "SQL para análise de dados",
+          "descricao": "O aluno irá aprender a manipular dados a partir de dados estruturados para analisar e extrair conhecimento desses dados",
+          "projetos": [
+            "Criação de um relatório de vendas por região"
+          ],
+          "hard_skills": [
+            "Manipulação de dados estruturados",
+            "Capacidade de realizar junções em dados a partir da cláusula JOIN",
+            "Extração de dados de bases estruturadas"
+          ],
+          "soft_skills": [
+            "Capacidade analítica",
+            "Dcomposição de problemas",
+            "Pensamento analítico",
+            "Aplicação de conceitos de matemática"
+          ],
+          "ferramentas_principais": [
+            "SQLite",
+            "MySQL"
+          ],
+          "cursos": [
+            {
+              "stack": "SQLite",
+              "cursos": [
+                {
+                  "id": 2953,
+                  "nome": "SQLite online: conhecendo instruções SQL",
+                  "link": "https://cursos.alura.com.br/course/sqlite-online-conhecendo-instrucoes-sql",
+                  "status": "CARREIRA"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Introdução à programação com Python",
+          "descricao": "Introduzir conceitos da programação em python",
+          "projetos": [
+            "Análise Básica de Dados com Python",
+            "Manipulação de Estruturas de Dados"
+          ],
+          "hard_skills": [
+            "Fundamentos de programação com Python",
+            "Manipulação de dados com listas, tuplas e dicionários",
+            "Criação e uso de funções, incluindo lambda",
+            "Tratamento de exceções em Python",
+            "Uso de list comprehension e dict comprehension"
+          ],
+          "soft_skills": [
+            "Resolução de problemas com abordagens lógicas",
+            "Pensamento crítico e analítico",
+            "Atenção aos detalhes",
+            "Autonomia para buscar soluções usando documentação e IA"
+          ],
+          "ferramentas_principais": [
+            "Python",
+            "Google Colab",
+            "VS Code",
+            "Bibliotecas Python (Matplotlib, random)"
+          ],
+          "cursos": [
+            {
+              "stack": "Python",
+              "cursos": [
+                {
+                  "id": 2922,
+                  "nome": "Python para Data Science: primeiros passos",
+                  "link": "https://cursos.alura.com.br/course/python-data-science-primeiros-passos",
+                  "status": "CARREIRA"
+                },
+                {
+                  "id": 2923,
+                  "nome": "Python para Data Science: trabalhando com funções, estruturas de dados e exceções",
+                  "link": "https://cursos.alura.com.br/course/python-data-science-funcoes-estruturas-dados-excecoes",
+                  "status": "CARREIRA"
+                },
+                {
+                  "id": 4415,
+                  "nome": "Praticando Python: estruturas de dados",
+                  "link": "https://cursos.alura.com.br/course/praticando-python-estruturas-dados",
+                  "status": "CARREIRA"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": "Iniciante",
+      "subnivel": "Nível I",
+      "objetivos_gerais": [
+        "Entender os fundamentos da Governança de Dados.",
+        "Explorar os papéis, domínios e políticas de governança.",
+        "Aplicar os conceitos básicos em projetos práticos e contextualizados."
+      ],
+      "blocos_tematicos": [
+        {
+          "nome": "Introdução à Governança de dados",
+          "descricao": "O que é Governança. Governança de dados. DAMA e o DMBOK. Domínios de dados. ",
+          "projetos": [],
+          "hard_skills": [
+            "Identificar atores e responsabilidades em Governança de dados",
+            "Diferenciar Governança e Gestão de Dados",
+            "Identificar iniciativas de governança de dados"
+          ],
+          "soft_skills": [
+            "Pensamento sistêmico",
+            "Capacidade analítica"
+          ],
+          "ferramentas_principais": [
+            "Draw.io"
+          ],
+          "cursos": [{
+            "stack": "Python",
+            "cursos":[
+            
+            {
+              "id": 3713,
+              "nome": "Governança de dados: explorando os conceitos fundamentais",
+              "link": "https://www.alura.com.br/curso-online-governanca-dados-explorando-conceitos-fundamentais",
+              "status": "CARREIRA"
+            }
+          ]
+        }]
+        },
+        {
+          "nome": "Papéis em Governança de dados",
+          "descricao": "Neste bloco, o aluno conhecerá os principais papéis existentes em iniciativas de governança de dados, compreendendo suas responsabilidades, interações e como se distribuem nas estruturas organizacionais.",
+          "projetos": ["Criação de material de divulgação sobre os papéis em governança de dados"],
+          "hard_skills": [
+            "Entendimento das responsabilidades de Data Owner, Data Steward, CDO e outros papéis",
+            "Análise de estruturas organizacionais voltadas a dados"
+          ],
+          "soft_skills": [
+            "Comunicação interpessoal",
+            "Capacidade de articulação entre áreas",
+            "Pensamento sistêmico"
+          ],
+          "ferramentas_principais": [
+            "Draw.io"
+          ],
+          "cursos": [
+            {
+              "stack": "Python",
+              "cursos": [
+            
+            {
+              "id": 3713,
+              "nome": "Governança de dados: explorando os conceitos fundamentais",
+              "link": "https://www.alura.com.br/curso-online-governanca-dados-explorando-conceitos-fundamentais",
+              "status": "CARREIRA"
+            }
+          ]
+        }]
+        },
+        {
+          "nome": "Motivadores de Governança de dados",
+          "descricao": "Vantagem competitiva. Risco de reputação. Eficiência. Ganho de escala. Habilitar soluções de IA. Conformidade. ",
+          "projetos": ["Identificar e elencar, dado um cenário, os principais motivadores da iniciativa de governança de dados"],
+          "hard_skills": [
+            "Identificação de riscos e oportunidades relacionados a dados",
+            "Mapeamento de requisitos de compliance e governança",
+            "Mapeamento de riscos relacionados ao uso de dados nas instituições"
+          ],
+          "soft_skills": [
+            "Visão estratégica",
+            "Argumentação e defesa de ideias",
+            "Pensamento crítico"
+          ],
+          "ferramentas_principais": [],
+          "cursos": [
+            {
+            "stack": "Python",
+              "cursos": [
+            {
+              "id": 3713,
+              "nome": "Governança de dados: explorando os conceitos fundamentais",
+              "link": "https://www.alura.com.br/curso-online-governanca-dados-explorando-conceitos-fundamentais",
+              "status": "CARREIRA"
+            }
+          ]}
+          ]
+        },
+        {
+          "nome": "Ciclo de vida dos dados",
+          "descricao": "Compreendendo o ciclo de vida dos dados",
+          "projetos": [
+            "Desenhar o ciclo de vida de dados de uma organização"
+          ],
+          "hard_skills": [
+            "Análise e definição de ciclo de vida aplicado à dados"
+          ],
+          "soft_skills": [
+            "Visão Sistêmica"
+          ],
+          "ferramentas_principais": [
+            "Draw.io"
+          ],
+          "cursos": [
+            {
+              "stack":"Python",
+              "cursos": [
+            
+            {
+              "id": 3714,
+              "nome": "Governança de dados: conhecendo o ciclo de vida dos dados",
+              "link": "https://www.alura.com.br/curso-online-governanca-dados-conhecendo-ciclo-vida-dados",
+              "status": "CARREIRA"
+            }
+          ]
+        }]
+        },
+        {
+          "nome": "Políticas de governança de dados",
+          "descricao": "Clareza no processo e nas responsabilidades. Plano de Comunicação. ",
+          "projetos": [
+            "Plano de comunicação para adoção de política"
+          ],
+          "hard_skills": [
+            "Redação de políticas e procedimentos técnicos",
+            "Estruturação de planos de comunicação",
+            "Mapeamento de stakeholders"
+          ],
+          "soft_skills": [
+            "Escrita formal e objetiva",
+            "Organização e sistematização de ideias",
+            "Comunicação assertiva"
+          ],
+          "ferramentas_principais": [],
+          "cursos": []
+        },
+        {
+          "nome": "Projeto Integrador - Criando uma Política de Privacidade de dados",
+          "descricao": "Neste projeto integrador, o aluno colocará em prática os conhecimentos adquiridos ao longo do nível, elaborando uma política de privacidade de dados baseada em normas e boas práticas de mercado.",
+          "projetos": [
+            "Documento de política de privacidade",
+            "Apresentação do plano de comunicação da política de privacidade"
+          ],
+          "hard_skills": [
+            "Interpretação da LGPD e outras legislações",
+            "Escrita de documentos técnicos",
+            "Aplicação de princípios de governança"
+          ],
+          "soft_skills": [
+            "Responsabilidade ética",
+            "Atenção aos detalhes",
+            "Leitura e Interpretação de documentos técnicos e jurídicos"
+          ],
+          "ferramentas_principais": [
+            "Draw.io",
+            "Editor de texto"
+          ],
+          "cursos": []
+        }
+      ]
+    },
+    {
+      "nivel": "Iniciante",
+      "subnivel": "Nível II",
+      "objetivos_gerais": [
+        "Aprofundar os fundamentos da Governança de Dados.",
+        "Explorar as diferentes disciplinas de governança de dados.",
+        "Aplicar os conceitos em projetos práticos e contextualizados."
+      ],
+      "blocos_tematicos": [
+        {
+          "nome": "Metadados",
+          "descricao": "Neste bloco, o aluno entenderá o que são metadados, suas categorias (técnicos, descritivos, de negócio, operacionais) e o papel essencial que desempenham na organização e governança dos dados.",
+          "projetos": ["Extração de metadados de tabelas, imagens e vídeos"],
+          "hard_skills": [
+            "Identificar e caracterizar diferentes tipos de metadados",
+            "Relacionar metadados técnicos, de negócio, descritivos e operacionais com contextos organizacionais"
+          ],
+          "soft_skills": [
+            "Visão sistêmica",
+            "Comunicação entre áreas técnicas e de negócio",
+            "Organização da informação"
+          ],
+          "ferramentas_principais": [
+            "Python",
+            "Google Collab"
+          ],
+          "cursos": [
+            {
+              "stack": "Python",
+              "cursos" :[
+                {
+                  "id": 3716,
+                  "nome": "Governança de dados: usando metadados para compreender dados",
+                  "link": "https://www.alura.com.br/curso-online-governanca-dados-usando-metadados-compreender-dados",
+                  "status": "CARREIRA"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Qualidade de metadados",
+          "descricao": "Como avaliar diferentes metadados. Como avaliar boas descrições. Fuzzy Match. ",
+          "projetos": [
+            "aumentar a qualidade de metadados"
+          ],
+          "hard_skills": [
+            "Aplicar técnicas de Fuzzy Matching para identificação de metadados similares",
+            "Avaliar a qualidade de descrições de metadados",
+            "Criar padrões de preenchimento e validação de metadados"
+          ],
+          "soft_skills": [
+            "Atenção aos detalhes",
+            "Capacidade de avaliação crítica",
+            "Pensamento analítico"
+          ],
+          "ferramentas_principais": [
+            "Python",
+            "Google Colab",
+            "fuzzywuzzy"
+          ],
+          "cursos": [
+            {
+              "stack": "Python",
+              "cursos" : [
+              {
+                "id": 3716,
+                "nome": "Governança de dados: usando metadados para compreender dados",
+                "link": "https://www.alura.com.br/curso-online-governanca-dados-usando-metadados-compreender-dados",
+                "status": "CARREIRA"
+              }
+          ]
+          }
+          ]
+        },
+        {
+          "nome": "Linhagem de Dados e Descoberta de Ativos",
+          "descricao": "Técnicas e ferramentas para rastreamento e visualização da linhagem de dados. A importância da descoberta ativa de dados para governança.",
+          "projetos": [
+            "Construção de grafo de linhagem de um pipeline de dados"
+          ],
+          "hard_skills": [
+            "Mapear a origem, transformação e destino de dados",
+            "Identificar ferramentas de mercado para linhagem de dados",
+            "Relacionar linhagem de dados com governança e compliance"
+          ],
+          "soft_skills": [
+            "Pensamento analítico",
+            "Atenção aos detalhes",
+            "Capacidade de abstração"
+          ],
+          "ferramentas_principais": [
+            "OpenMetadata",
+            "Python",
+            "Draw.io"
+          ],
+          "cursos": [
+            {
+              "stack": "Python",
+              "cursos" : [
+              {
+                "id": 3717,
+                "nome": "Governança de dados: mapeando a origem e o destino com linhagem de dados",
+                "link": "https://www.alura.com.br/conteudo/governanca-dados-mapeando-origem-destino-linhagem-dados",
+                "status": "CARREIRA"
+              }
+          ]
+          }
+          ]
+        },
+        {
+          "nome": "Glossário de Negócio",
+          "descricao": "Problemas de dados como problemas de passagem de conhecimento. Ponte entre os dados e o negócio. ",
+          "projetos": [
+            "Criação de um glossário de negócio"
+          ],
+          "hard_skills": [
+            "Gestão do conhecimento de negócio",
+            "Elaboração de glossários técnicos e de negócio",
+            "Documentação de termos e definições de dados"
+          ],
+          "soft_skills": [
+            "Comunicação entre áreas técnicas e de negócio",
+            "Escuta ativa",
+            "Capacidade de síntese e formalização de conceitos"
+          ],
+          "ferramentas_principais": [
+            "Python",
+            "Google Collab",
+            "Draw.io"
+          ],
+          "cursos": []
+        },
+        {
+          "nome": "Projeto integrador - Repositório Central de Metadados",
+          "descricao": "Neste projeto, o aluno será responsável por criar um repositório central de metadados de forma a garantir que essas informações estaejam corretas e precisas",
+          "projetos": [
+            "Estruturação de repositório central de metadados",
+            "Documentação de ativos e seus metadados técnicos e de negócio"
+          ],
+          "hard_skills": [
+            "Modelagem de repositórios de metadados",
+            "Documentação de dados e atributos",
+            "Relacionamento entre tabelas e dicionários de dados"
+          ],
+          "soft_skills": [
+            "Organização e documentação",
+            "Visão sistêmica",
+            "Colaboração entre áreas"
+          ],
+          "ferramentas_principais": [
+            "Python",
+            "Google Colab",
+            "Draw.io"
+          ],
+          "cursos": []
+        }
+      ]
+    },
+    {
+      "nivel": "Intermediário",
+      "subnivel": "Nível I",
+      "objetivos_gerais": [
+        "Aplicar os fundamentos da Governança de Dados em diferentes contextos.",
+        "Criar ferramentas para que tecnologia e negócio consigam compartilhar conhecimento.",
+        "Mediar as relações entre times de negócio e de tecnologia."
+      ],
+      "blocos_tematicos": [
+        {
+          "nome": "Catálogo de dados",
+          "descricao": "Catálogo de dados VS Inventário de dados VS Data Marketplace. Overview das ferramentas e players de mercado. ",
+          "projetos": [
+            "Administrar ativos de dados em um catálogo de dados"
+          ],
+          "hard_skills": [
+            "Compreensão do que é um catálogo de dados",
+            "Relacionamento entre dados, domínios e glossários",
+            "Avaliação de ferramentas de mercado para catalogação"
+          ],
+          "soft_skills": [
+            "Capacidade de estruturar e organizar informações",
+            "Pensamento sistêmico",
+            "Visão de produto"
+          ],
+          "ferramentas_principais": [
+            "Azure Purview"
+          ],
+          "cursos": []
+        },
+        {
+          "nome": "Qualidade de dados",
+          "descricao": "Business Data Quality e Technical Data Quality. Engenharia e Qualidade de dados. Quem é responsável por criar as regras de qualidade?. Criando e automatizando regras de qualidade de dados. ",
+          "projetos": [],
+          "hard_skills": [
+            "Criação e automação de regras de qualidade de dados",
+            "Diferenciação entre qualidade técnica e de negócio",
+            "Utilização de bibliotecas Python para validação de dados"
+          ],
+          "soft_skills": [
+            "Capacidade de diagnóstico",
+            "Resolução de problemas",
+            "Colaboração multidisciplinar"
+          ],
+          "ferramentas_principais": [
+            "Google collaboratory",
+            "Python",
+            "Pydeequ"
+          ],
+          "cursos": [
+            {
+            "stack": "Python",
+              "cursos": [
+            {
+            "id": 3715,
+            "nome": "Governança de dados: garantindo a qualidade de dados com a biblioteca Pydeequ",
+            "link": "https://www.alura.com.br/curso-online-governanca-dados-qualidade-dados-biblioteca-pydeequ?srsltid=AfmBOoo3fjdLsgLxg9oQJ0fLV9Nyc-vyi7i9b0WB2xZ4boH9P4PfxpYR",
+            "status": "CARREIRA"
+          }
+        ]
+      }
+        ]
+        },
+        {
+          "nome": "Priorização ou Criticidade de dados",
+          "descricao": "Como identificar ativos chave. Priorização orientada à dados. Priorização orientada ao negócio. ",
+          "projetos": [
+            "Criar um modelo de priorizaçõ de dados baseado em acesso"
+          ],
+          "hard_skills": [
+            "Entender como priorizar dados"
+          ],
+          "soft_skills": [
+            "Priorização de ações e ativos"
+          ],
+          "ferramentas_principais": [
+            "Python",
+            "Google Collaboratory"
+          ],
+          "cursos": []
+        },
+        {
+          "nome": "Segurança de Dados",
+          "descricao": "Acesso ao dado. Bases legais. Tempo de acesso. Revisão de acesso. Princípio do acesso mínimo. Problemas com acesso. Mal uso de dados. Mudanças nos dados. Prevenindo vazamento de dados. Analisando padrões de acesso. ",
+          "projetos": ["Criação de um processo para garantir o conformidade com a LGPD"],
+          "hard_skills": [
+            "Mapeamento de acessos e permissões",
+            "Aplicação do princípio do menor privilégio",
+            "Identificação de riscos e prevenção de vazamentos"
+          ],
+          "soft_skills": [
+            "Responsabilidade ética",
+            "Atenção aos detalhes",
+            "Conscientização de segurança"
+          ],
+          "ferramentas_principais": [
+            "Python, Draw.io"
+          ],
+          "cursos": []
+        }        
+      ]
+    },
+    {
+      "nivel": "Intermediário",
+      "subnivel": "Nível II",
+      "objetivos_gerais": [
+        "Aprofundar técnicas de gestão de qualidade e segurança de dados.",
+        "Estudar a aplicação de MDM, priorização e governança em arquitetura e nuvem.",
+        "Relacionar aspectos técnicos com decisões de negócio."
+      ],
+      "blocos_tematicos": [
+        {
+          "nome": "Master Data Management",
+          "descricao": "O que são dados mestres?. Dados de referência. Fatores que influenciam no MDM. Escopo. Nível de centralização. Necessidade de uso dos dados. ",
+          "projetos": ["Criação de uma base de master data"],
+          "hard_skills": [
+            "Identificação de dados mestres e de referência",
+            "Definição de escopos e governança de MDM",
+            "Avaliação de modelos centralizados e distribuídos"
+          ],
+          "soft_skills": [
+            "Visão estratégica",
+            "Capacidade de articulação entre áreas",
+            "Pensamento sistêmico"
+          ],
+          "ferramentas_principais": [
+            "Draw.io",
+            "Excel",
+            "Plataformas MDM (overview)"
+          ],
+          "cursos": []
+        },
+        {
+          "nome": "Dados de Referência",
+          "descricao": "O que são Dados de referência. MDM e dados de referência. Necessidade de uso dos dados. ",
+          "projetos": ["Criação de uma tabela de referência"],
+          "hard_skills": [
+            "Identificação de dados mestres e de referência",
+            "Definição de escopos de dados de referência",
+            "Criação de standarts de dados"
+          ],
+          "soft_skills": [
+            "Visão estratégica",
+            "Capacidade de articulação entre áreas",
+            "Pensamento sistêmico"
+          ],
+          "ferramentas_principais": [
+            "Draw.io",
+            "Excel",
+            "Plataformas MDM (overview)"
+          ],
+          "cursos": []
+        },
+         {
+          "nome": "Enterprise Data Standards",
+          "descricao": "O que são Data Stardards, a importância de Data Standards",
+          "projetos": ["Criação de uma política de data standards"],
+          "hard_skills": [
+            "Gerenciamento do conhecimento",
+            "Definição standards",
+            "Criação de standarts de dados"
+          ],
+          "soft_skills": [
+            "Visão estratégica",
+            "Capacidade de articulação entre áreas",
+            "Pensamento sistêmico"
+          ],
+          "ferramentas_principais": [
+            "Draw.io",
+            "Excel",
+            "Python"
+          ],
+          "cursos": []
+        },
+        {
+          "nome": "Projeto integrador - Realizando curadoria de dados em uma base crítica",
+          "descricao": "Neste projeto, o aluno será responsável por realizar a curadoria baseada em aumentar a qualidade de dados e garantir a segurança de dados classificando a natureza dos dados",
+          "projetos": [
+            "Criação de regras de qualidade de dados",
+            "Classificação das colunas com base na privacidade"
+          ],
+          "hard_skills": [
+            "Criação de regras de qualidade",
+            "Documentação de dados e atributos",
+            "Classificação de dados"
+          ],
+          "soft_skills": [
+            "Organização e documentação",
+            "Visão sistêmica",
+            "Colaboração entre áreas"
+          ],
+          "ferramentas_principais": [
+            "Python",
+            "Google Colab",
+            "Draw.io"
+          ],
+          "cursos": []
+        }
+      ]
+    },
+    {
+      "nivel": "Intermediário",
+      "subnivel": "Nível III",
+      "objetivos_gerais": [
+        "Estudar a relação entre governança de dados e áreas correlatas",
+        "Entender as interações de governança com áreas de negócio e técnicas",
+        "Relacionar aspectos técnicos com decisões de negócio."
+      ],
+      "blocos_tematicos": [
+        {
+          "nome": "Engenharia e Qualidade de dados",
+          "descricao": "O gargalo da engenharia. Avaliando a qualidade de dados nos ETLs. Criando requisitos de technical data quality. ",
+          "projetos": [],
+          "hard_skills": [
+            "Análise de ETLs com foco em qualidade de dados",
+            "Criação de requisitos técnicos para validação de dados",
+            "Integração de testes de qualidade em pipelines"
+          ],
+          "soft_skills": [
+            "Colaboração com times técnicos",
+            "Atenção aos detalhes",
+            "Pensamento lógico"
+          ],
+          "ferramentas_principais": [
+            "Python",
+            "Pydeequ",
+            "Apache Airflow"
+          ],
+          "cursos": []
+        },
+        {
+          "nome": "Governança e Arquitetura de dados",
+          "descricao": "Como o modelo de arquitetura interfere na governança. Centralização da arquitetura de dados VS Maturidade de dados. Diferentes estratégias para diferentes modelos de arquitetura. ",
+          "projetos": [],
+          "hard_skills": [
+            "Relacionar modelos arquiteturais com práticas de governança",
+            "Mapear impactos de centralização ou descentralização de dados",
+            "Alinhar estratégias técnicas com requisitos de governança"
+          ],
+          "soft_skills": [
+            "Visão de arquitetura",
+            "Capacidade analítica",
+            "Tradução de requisitos de negócio para soluções técnicas"
+          ],
+          "ferramentas_principais": [
+            "Draw.io",
+            "PowerPoint",
+            "Lucidchart"
+          ],
+          "cursos": []
+        },
+        {
+          "nome": "Governança e Business Inteligence",
+          "descricao": "Interação de Governança e Business Inteligence, o papel de governança na criação e gestão de dashboards",
+          "projetos": ["Criar as definições de governança para o processo de criação de novos dashboards de BI"],
+          "hard_skills": [
+            "Entender o processo de demanda de business intellingence",
+            "Identificar a importância da governança no processo de criação de BI",
+            "Caracterizar BI como uma interface de dados com o negócio"
+          ],
+          "soft_skills": [
+            "Visão de arquitetura",
+            "Capacidade analítica",
+            "Criação de guardrails técnicos"
+          ],
+          "ferramentas_principais": [
+            "Draw.io",
+            "PowerPoint",
+            "Lucidchart"
+          ],
+          "cursos": []
+        },
+        {
+          "nome": "Projeto integrador - Mapeamento do processo end-to-end de ingestão",
+          "descricao": "Neste projeto, o aluno será responsável por mapear o processo de ingestão, da necessidade de negócio até o momento da ingestão no Lake",
+          "projetos": [
+            "Mapeamento do proceso end-to-end",
+            "Documentação dos requisitos de governança"
+          ],
+          "hard_skills": [
+            "Engenharia de Prcessos",
+            "Documentação de requisitos técnicos"
+          ],
+          "soft_skills": [
+            "Organização e documentação",
+            "Visão sistêmica",
+            "Colaboração entre áreas"
+          ],
+          "ferramentas_principais": [
+            "Google Colab",
+            "Draw.io"
+          ],
+          "cursos": []
+        }
+      ]
+    },
+    {
+      "nivel": "Avançado",
+      "subnivel": "Nível I",
+      "objetivos_gerais": [
+        "Explorar estratégias organizacionais e carreiras em Governança.",
+        "Investigar a relação com IA, ontologias e arquitetura empresarial.",
+        "Projetar soluções de governança em contextos complexos."
+      ],
+      "blocos_tematicos": [
+        {
+          "nome": "Diferentes Perfis e Carreiras em governança de dados",
+          "descricao": "Analistas de Qualidade de dados. Analistas de MDM. Analistas de governança de dados (central). Analistas de governança de dados (unidades de negócio). Data Steward. Engenheiro/Arquiteto de Governança de dados. ",
+          "projetos": [],
+          "hard_skills": [
+            "Identificar competências de cada papel na governança",
+            "Relacionar responsabilidades com estruturas organizacionais",
+            "Mapear perfis profissionais e trajetórias de carreira"
+          ],
+          "soft_skills": [
+            "Autoconhecimento",
+            "Visão organizacional",
+            "Comunicação interpessoal"
+          ],
+          "ferramentas_principais": [
+            "Miro",
+            "Draw.io"
+          ],
+          "cursos": []
+        },
+        {
+          "nome": "Governança de dados na Cloud",
+          "descricao": "Overview de como diferentes serviços de nuvem possuem ferramentas para governança de dados. Governança de dados na Microsoft. ",
+          "projetos": [],
+          "hard_skills": [
+            "Conhecimento de serviços de governança em nuvem (Azure, AWS, GCP)",
+            "Comparar soluções de catálogos, segurança e compliance na nuvem",
+            "Avaliação de trade-offs entre ferramentas cloud"
+          ],
+          "soft_skills": [
+            "Curiosidade tecnológica",
+            "Capacidade de adaptação",
+            "Aprendizagem contínua"
+          ],
+          "ferramentas_principais": [
+            "Azure Purview",
+            "AWS Glue",
+            "Google Cloud Data Catalog"
+          ],
+          "cursos": []
+        },
+        {
+          "nome": "Produtos de Dados",
+          "descricao": "Produtos de dados VS Dados como Produtos. A ligação entre os ativos técnicos e o negócio. Criando pontes e servindo o negócio. ",
+          "projetos": [],
+          "hard_skills": [
+            "Compreensão de produtos de dados",
+            "Relacionar dados com objetivos de negócio",
+            "Criação de planos de entrega e consumo de dados"
+          ],
+          "soft_skills": [
+            "Mentalidade de produto",
+            "Orientação ao cliente interno",
+            "Colaboração entre times"
+          ],
+          "ferramentas_principais": [
+            "Notion",
+            "Jira",
+            "Miro"
+          ],
+          "cursos": []
+        },
+        {
+          "nome": "Camada Semântica",
+          "descricao": "Entenda o que é uma camada semântica, como ela se relaciona com os dados e como permite o entendimento compartilhado entre negócio e tecnologia.",
+          "projetos": [],
+          "hard_skills": [
+            "Modelagem de conceitos e entidades de negócio",
+            "Relacionamento entre dados físicos e entidades lógicas",
+            "Aplicação de camadas semânticas em soluções de BI"
+          ],
+          "soft_skills": [
+            "Capacidade de abstração",
+            "Comunicação entre times técnicos e de negócio",
+            "Pensamento conceitual"
+          ],
+          "ferramentas_principais": [
+            "Power BI",
+            "Looker",
+            "Ferramentas de modelagem semântica"
+          ],
+          "cursos": []
+        }
+      ]
+    },
+    {
+      "nivel": "Avançado",
+      "subnivel": "Nível II",
+      "objetivos_gerais": [
+        "Estabelecer uma ponte entre tegnologia e unidades de negócio",
+        "Investigar a relação com IA, ontologias e arquitetura empresarial.",
+        "Avaliar impacto das mudanças de dados e do negócio"
+      ],
+      "blocos_tematicos": [
+        {
+          "nome": "Ontologia orientada à dados",
+          "descricao": "Conceito de ontologia. Modelos de ontologia para dados. Sistemas orientados à ontologias. ",
+          "projetos": [],
+          "hard_skills": [],
+          "soft_skills": [],
+          "ferramentas_principais": [],
+          "cursos": []
+        },
+        {
+          "nome": "A ponte entre o negócio e os dados",
+          "descricao": "Como construir pontes entre áreas técnicas e áreas de negócio. Práticas para colaboração, entendimento mútuo e alinhamento estratégico.",
+          "projetos": [],
+          "hard_skills": [
+            "Tradução de requisitos de negócio em soluções técnicas",
+            "Facilitação de workshops de entendimento de dados",
+            "Modelagem de necessidades de negócio"
+          ],
+          "soft_skills": [
+            "Empatia organizacional",
+            "Comunicação eficaz",
+            "Capacidade de mediação"
+          ],
+          "ferramentas_principais": [
+            "Miro",
+            "Draw.io",
+            "Notion"
+          ],
+          "cursos": []
+        },
+        {
+          "nome": "Função de negócio, serviço de negócio e valor",
+          "descricao": "Compreenda como funções e serviços de negócio se relacionam com os dados e como essa relação pode gerar valor para a organização.",
+          "projetos": [],
+          "hard_skills": [
+            "Mapeamento de processos e serviços de negócio",
+            "Relacionamento entre serviços e ativos de dados",
+            "Mensuração de valor gerado por dados"
+          ],
+          "soft_skills": [
+            "Visão estratégica",
+            "Relacionamento com áreas de negócio",
+            "Tomada de decisão orientada a valor"
+          ],
+          "ferramentas_principais": [
+            "Bizagi",
+            "Draw.io",
+            "Power BI"
+          ],
+          "cursos": []
+        },
+        {
+          "nome": "Identificando impacto através dos Serviços de negócio",
+          "descricao": "Aprenda como analisar o impacto de mudanças de dados a partir dos serviços de negócio associados. Antecipação de riscos e impactos.",
+          "projetos": [],
+          "hard_skills": [
+            "Mapeamento de dependências de dados e serviços",
+            "Análise de impacto em mudanças de dados",
+            "Documentação de cenários de risco"
+          ],
+          "soft_skills": [
+            "Pensamento de impacto",
+            "Capacidade de antecipação",
+            "Visão de processos"
+          ],
+          "ferramentas_principais": [
+            "Draw.io",
+            "Excel",
+            "PowerPoint"
+          ],
+          "cursos": []
+        }
+      ]
+    },
+    {
+      "nivel": "Avançado",
+      "subnivel": "Nível III",
+      "objetivos_gerais": [
+        "Explorar interações entre a área de governança e a estratégia de tecnologia e da organização",
+        "Entender e articular os conceitos de estratégia de dados, governança de dados e estratégia organizacional",
+        "Projetar soluções de governança em contextos complexos."
+      ],
+      "blocos_tematicos": [
+        {
+          "nome": "Governança de dados e Governança de TI",
+          "descricao": "Relacionar os papéis, objetivos e escopos da governança de dados e da governança de TI, entendendo como se complementam e diferem.",
+          "projetos": [],
+          "hard_skills": [
+            "Diferenciar governança de dados e de TI",
+            "Relacionar frameworks (COBIT, DAMA-DMBOK)",
+            "Analisar estruturas de governança corporativa"
+          ],
+          "soft_skills": [
+            "Pensamento estratégico",
+            "Capacidade de articulação",
+            "Compreensão organizacional"
+          ],
+          "ferramentas_principais": [
+            "Draw.io",
+            "Miro",
+            "PowerPoint"
+          ],
+          "cursos": []
+        },
+        {
+          "nome": "Estratégia de dados",
+          "descricao": "Bases de estratégia de dados. Porque não há escala em dados sem governança.",
+          "projetos": [],
+          "hard_skills": [
+            "Identificar conceitos de estretégia de dados"
+          ],
+          "soft_skills": [
+            "relacionar conceitos de negócio e de dados"
+          ],
+          "ferramentas_principais": [],
+          "cursos": []
+        },
+        {
+          "nome": "Maturidade das iniciativas de governança de dados",
+          "descricao": "Como avaliar e aumentar a maturidade das iniciativas da governança de dados",
+          "projetos": [],
+          "hard_skills": [
+            "Avaliar indicadores de maturidade de dados na organização",
+            "Avaliar a maturidade das ações de governança de dados na organização"
+          ],
+          "soft_skills": [
+            "Capacidade de avaliaçãod de maturidade"
+          ],
+          "ferramentas_principais": [],
+          "cursos": []
+        },
+        {
+          "nome": "Comunicação para profissionais em governança",
+          "descricao": "Introduçõ de conceitos de comunicação como Persona, tom de voz e engajamento",
+          "projetos": [],
+          "hard_skills": [
+            "Identificação de Personas",
+            "Comunicação técnica"
+          ],
+          "soft_skills": [
+            "Comunicação assertiva",
+            "Pensamento crítico"          ],
+          "ferramentas_principais": [],
+          "cursos": []
+        },
+        {
+          "nome": "Projeto integrador - Avaliando a maturidade de dados da organização",
+          "descricao": "Neste projeto, o aluno será responsável por criar uma forma orientada à dados de medir a maturidade de dados de diferentes domínios de dados da organização",
+          "projetos": [
+            "Criação de uma forma de medir a maturidade",
+            "Documentação dos requisitos de governança"
+          ],
+          "hard_skills": [
+            "Engenharia de Prcessos",
+            "Documentação de requisitos técnicos"
+          ],
+          "soft_skills": [
+            "Comunicação com áreas de negócio",
+            "Visão sistêmica",
+            "Colaboração entre áreas"
+          ],
+          "ferramentas_principais": [
+            "Google Colab",
+            "Draw.io"
+          ],
+          "cursos": []
+        }
+      ]
+    }
+  ]
+}

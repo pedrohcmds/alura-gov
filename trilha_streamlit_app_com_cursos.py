@@ -69,10 +69,6 @@ with open("formacao_analista_governanca_dados_completo.json", "r", encoding="utf
 
 # Exibição
 for etapa in trilha["ementa"]:
-    # if etapa['nivel'] == "Nivelamento":
-    #    subnivel = ""
-    # else:
-    #     subnivel = f" - {etapa['subnivel']}"
 
     if etapa['nivel'] == "Nivelamento":
         icone = "🟢"
@@ -87,8 +83,7 @@ for etapa in trilha["ementa"]:
         icone = "🟣"
         cores = "violet"
         
-    # st.header(f":{cores}[{icone} {etapa['nivel']}{subnivel}]", divider=cores)
-    st.header(f":{cores}[{icone} {etapa['nivel']} - {etapa['subnivel']}]", divider=cores)
+    st.header(f":{cores}[{icone} {etapa['nivel']}]", divider=cores)
     for bloco in etapa["blocos_tematicos"]:
         with st.expander(f"## 📦 {bloco['nome']}"):
             st.markdown("##### 📝 Descrição")

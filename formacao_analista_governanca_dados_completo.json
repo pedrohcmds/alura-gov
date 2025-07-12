@@ -3,7 +3,6 @@
   "ementa": [
     {
       "nivel": "Nivelamento",
-      "subnivel": "Nível I",
       "objetivos_gerais": [
         "Compreender o papel dos dados nas organizações.",
         "Familiarizar-se com os conceitos básicos de dados.",
@@ -136,7 +135,6 @@
     },
     {
       "nivel": "Iniciante",
-      "subnivel": "Nível I",
       "objetivos_gerais": [
         "Entender os fundamentos da Governança de Dados.",
         "Explorar os papéis, domínios e políticas de governança.",
@@ -300,18 +298,7 @@
             "Editor de texto"
           ],
           "cursos": []
-        }
-      ]
-    },
-    {
-      "nivel": "Iniciante",
-      "subnivel": "Nível II",
-      "objetivos_gerais": [
-        "Aprofundar os fundamentos da Governança de Dados.",
-        "Explorar as diferentes disciplinas de governança de dados.",
-        "Aplicar os conceitos em projetos práticos e contextualizados."
-      ],
-      "blocos_tematicos": [
+        },
         {
           "nome": "Metadados",
           "descricao": "Neste bloco, o aluno entenderá o que são metadados, suas categorias (técnicos, descritivos, de negócio, operacionais) e o papel essencial que desempenham na organização e governança dos dados.",
@@ -437,41 +424,6 @@
           "cursos": []
         },
         {
-          "nome": "Projeto integrador - Repositório Central de Metadados",
-          "descricao": "Neste projeto, o aluno será responsável por criar um repositório central de metadados de forma a garantir que essas informações estaejam corretas e precisas",
-          "projetos": [
-            "Estruturação de repositório central de metadados",
-            "Documentação de ativos e seus metadados técnicos e de negócio"
-          ],
-          "hard_skills": [
-            "Modelagem de repositórios de metadados",
-            "Documentação de dados e atributos",
-            "Relacionamento entre tabelas e dicionários de dados"
-          ],
-          "soft_skills": [
-            "Organização e documentação",
-            "Visão sistêmica",
-            "Colaboração entre áreas"
-          ],
-          "ferramentas_principais": [
-            "Python",
-            "Google Colab",
-            "Draw.io"
-          ],
-          "cursos": []
-        }
-      ]
-    },
-    {
-      "nivel": "Intermediário",
-      "subnivel": "Nível I",
-      "objetivos_gerais": [
-        "Aplicar os fundamentos da Governança de Dados em diferentes contextos.",
-        "Criar ferramentas para que tecnologia e negócio consigam compartilhar conhecimento.",
-        "Mediar as relações entre times de negócio e de tecnologia."
-      ],
-      "blocos_tematicos": [
-        {
           "nome": "Catálogo de dados",
           "descricao": "Catálogo de dados VS Inventário de dados VS Data Marketplace. Overview das ferramentas e players de mercado. ",
           "projetos": [
@@ -512,7 +464,7 @@
             "Pydeequ"
           ],
           "cursos": [
-            {
+          {
             "stack": "Python",
               "cursos": [
             {
@@ -520,11 +472,21 @@
             "nome": "Governança de dados: garantindo a qualidade de dados com a biblioteca Pydeequ",
             "link": "https://www.alura.com.br/curso-online-governanca-dados-qualidade-dados-biblioteca-pydeequ?srsltid=AfmBOoo3fjdLsgLxg9oQJ0fLV9Nyc-vyi7i9b0WB2xZ4boH9P4PfxpYR",
             "status": "CARREIRA"
+            }
+            ]
           }
-        ]
-      }
-        ]
-        },
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": "Intermediário",
+      "objetivos_gerais": [
+        "Explorar estratégias organizacionais e carreiras em Governança.",
+        "Investigar a relação com IA, ontologias e arquitetura empresarial.",
+        "Projetar soluções de governança em contextos complexos."
+        ],
+      "blocos_tematicos": [
         {
           "nome": "Priorização ou Criticidade de dados",
           "descricao": "Como identificar ativos chave. Priorização orientada à dados. Priorização orientada ao negócio. ",
@@ -561,18 +523,8 @@
             "Python, Draw.io"
           ],
           "cursos": []
-        }        
-      ]
-    },
-    {
-      "nivel": "Intermediário",
-      "subnivel": "Nível II",
-      "objetivos_gerais": [
-        "Aprofundar técnicas de gestão de qualidade e segurança de dados.",
-        "Estudar a aplicação de MDM, priorização e governança em arquitetura e nuvem.",
-        "Relacionar aspectos técnicos com decisões de negócio."
-      ],
-      "blocos_tematicos": [
+        },        
+      
         {
           "nome": "Master Data Management",
           "descricao": "O que são dados mestres?. Dados de referência. Fatores que influenciam no MDM. Escopo. Nível de centralização. Necessidade de uso dos dados. ",
@@ -637,41 +589,6 @@
           "cursos": []
         },
         {
-          "nome": "Projeto integrador - Realizando curadoria de dados em uma base crítica",
-          "descricao": "Neste projeto, o aluno será responsável por realizar a curadoria baseada em aumentar a qualidade de dados e garantir a segurança de dados classificando a natureza dos dados",
-          "projetos": [
-            "Criação de regras de qualidade de dados",
-            "Classificação das colunas com base na privacidade"
-          ],
-          "hard_skills": [
-            "Criação de regras de qualidade",
-            "Documentação de dados e atributos",
-            "Classificação de dados"
-          ],
-          "soft_skills": [
-            "Organização e documentação",
-            "Visão sistêmica",
-            "Colaboração entre áreas"
-          ],
-          "ferramentas_principais": [
-            "Python",
-            "Google Colab",
-            "Draw.io"
-          ],
-          "cursos": []
-        }
-      ]
-    },
-    {
-      "nivel": "Intermediário",
-      "subnivel": "Nível III",
-      "objetivos_gerais": [
-        "Estudar a relação entre governança de dados e áreas correlatas",
-        "Entender as interações de governança com áreas de negócio e técnicas",
-        "Relacionar aspectos técnicos com decisões de negócio."
-      ],
-      "blocos_tematicos": [
-        {
           "nome": "Engenharia e Qualidade de dados",
           "descricao": "O gargalo da engenharia. Avaliando a qualidade de dados nos ETLs. Criando requisitos de technical data quality. ",
           "projetos": [],
@@ -735,6 +652,20 @@
           "cursos": []
         },
         {
+          "nome": "Comunicação para profissionais em governança",
+          "descricao": "Introduçõ de conceitos de comunicação como Persona, tom de voz e engajamento",
+          "projetos": [],
+          "hard_skills": [
+            "Identificação de Personas",
+            "Comunicação técnica"
+          ],
+          "soft_skills": [
+            "Comunicação assertiva",
+            "Pensamento crítico"          ],
+          "ferramentas_principais": [],
+          "cursos": []
+        },
+        {
           "nome": "Projeto integrador - Mapeamento do processo end-to-end de ingestão",
           "descricao": "Neste projeto, o aluno será responsável por mapear o processo de ingestão, da necessidade de negócio até o momento da ingestão no Lake",
           "projetos": [
@@ -760,7 +691,6 @@
     },
     {
       "nivel": "Avançado",
-      "subnivel": "Nível I",
       "objetivos_gerais": [
         "Explorar estratégias organizacionais e carreiras em Governança.",
         "Investigar a relação com IA, ontologias e arquitetura empresarial.",
@@ -849,18 +779,8 @@
             "Ferramentas de modelagem semântica"
           ],
           "cursos": []
-        }
-      ]
-    },
-    {
-      "nivel": "Avançado",
-      "subnivel": "Nível II",
-      "objetivos_gerais": [
-        "Estabelecer uma ponte entre tegnologia e unidades de negócio",
-        "Investigar a relação com IA, ontologias e arquitetura empresarial.",
-        "Avaliar impacto das mudanças de dados e do negócio"
-      ],
-      "blocos_tematicos": [
+        },
+      
         {
           "nome": "Ontologia orientada à dados",
           "descricao": "Conceito de ontologia. Modelos de ontologia para dados. Sistemas orientados à ontologias. ",
@@ -932,18 +852,7 @@
             "PowerPoint"
           ],
           "cursos": []
-        }
-      ]
-    },
-    {
-      "nivel": "Avançado",
-      "subnivel": "Nível III",
-      "objetivos_gerais": [
-        "Explorar interações entre a área de governança e a estratégia de tecnologia e da organização",
-        "Entender e articular os conceitos de estratégia de dados, governança de dados e estratégia organizacional",
-        "Projetar soluções de governança em contextos complexos."
-      ],
-      "blocos_tematicos": [
+        },
         {
           "nome": "Governança de dados e Governança de TI",
           "descricao": "Relacionar os papéis, objetivos e escopos da governança de dados e da governança de TI, entendendo como se complementam e diferem.",
@@ -989,20 +898,6 @@
           "soft_skills": [
             "Capacidade de avaliaçãod de maturidade"
           ],
-          "ferramentas_principais": [],
-          "cursos": []
-        },
-        {
-          "nome": "Comunicação para profissionais em governança",
-          "descricao": "Introduçõ de conceitos de comunicação como Persona, tom de voz e engajamento",
-          "projetos": [],
-          "hard_skills": [
-            "Identificação de Personas",
-            "Comunicação técnica"
-          ],
-          "soft_skills": [
-            "Comunicação assertiva",
-            "Pensamento crítico"          ],
           "ferramentas_principais": [],
           "cursos": []
         },

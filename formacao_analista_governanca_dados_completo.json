@@ -12,8 +12,8 @@
       "blocos_tematicos": [
         {
           "nome": "Alfabetização de dados",
-          "descricao": "Breve histórico da importância dos dados nas instituições. Como a presença de dados impacta diferentes camadas da instituição. ",
-          "projetos": [],
+          "descricao": "Descubra como os dados transformaram as organizações ao longo do tempo e como influenciam decisões em diferentes níveis institucionais. Neste curso, você aprenderá a identificar diferentes tipos de dados, reconhecer seu valor estratégico e entender por que o conhecimento técnico e de negócio são essenciais para extrair valor dos dados.",
+          "projetos": ["Descrever diferentes usos de dados em organizações"],
           "hard_skills": [
             "Identificar diferentes tipos de dados e suas caracteristicas",
             "Identificar a importância dos dados nas instituições",
@@ -31,8 +31,8 @@
         },
         {
           "nome": "Definições Fundamentais de dados",
-          "descricao": "Dados estruturados. Dados não estruturados. Características fundamentais dos dados. ",
-          "projetos": [],
+          "descricao": "Compreenda o que torna um dado estruturado ou não estruturado e por que essa distinção importa na análise e na governança. Este curso desenvolve sua capacidade de classificar dados e pensar criticamente sobre suas características, preparando você para trabalhar com informações em múltiplos contextos.",
+          "projetos": ["Classificar dados como estruturados e não estruturados"],
           "hard_skills": [
             "Identificar características de dados",
             "Caracterizar dados estruturados e não estruturados"
@@ -41,12 +41,12 @@
             "Pensamento crítico",
             "Decomposição de problemas"
           ],
-          "ferramentas_principais": [],
+          "ferramentas_principais": ["Draw.io"],
           "cursos": []
         },
         {
           "nome": "SQL para análise de dados",
-          "descricao": "O aluno irá aprender a manipular dados a partir de dados estruturados para analisar e extrair conhecimento desses dados",
+          "descricao": "Aprenda a manipular bases de dados estruturadas utilizando SQL, explorando cláusulas como JOIN para responder perguntas de negócio. Através de um projeto prático, você irá criar relatórios de vendas e desenvolver uma visão analítica sólida para transformar dados brutos em insights acionáveis.",
           "projetos": [
             "Criação de um relatório de vendas por região"
           ],
@@ -81,7 +81,7 @@
         },
         {
           "nome": "Introdução à programação com Python",
-          "descricao": "Introduzir conceitos da programação em python",
+          "descricao": "Mergulhe nos fundamentos da programação com Python. Aprenda a manipular estruturas de dados como listas e dicionários, criar funções e automatizar tarefas simples. Com foco prático e analítico, este curso é ideal para quem está começando e quer aplicar Python na análise e manipulação de dados.",
           "projetos": [
             "Análise Básica de Dados com Python",
             "Manipulação de Estruturas de Dados"
@@ -143,8 +143,8 @@
       "blocos_tematicos": [
         {
           "nome": "Introdução à Governança de dados",
-          "descricao": "O que é Governança. Governança de dados. DAMA e o DMBOK. Domínios de dados. ",
-          "projetos": [],
+          "descricao": "Entenda o que é governança de dados, seus principais conceitos e a importância estratégica desse pilar nas organizações. Aprenda sobre a DAMA, uma das principais organizações que contribuem para a governança de dados e o DMBOK, nas diferenças entre governança e gestão de dados, e identifique os principais atores e responsabilidades envolvidos em iniciativas de governança.",
+          "projetos": ["Descrever conceitos e definições de governança e as diferenças entre governança e gestão de dados"],
           "hard_skills": [
             "Identificar atores e responsabilidades em Governança de dados",
             "Diferenciar Governança e Gestão de Dados",
@@ -172,7 +172,7 @@
         },
         {
           "nome": "Papéis em Governança de dados",
-          "descricao": "Neste bloco, o aluno conhecerá os principais papéis existentes em iniciativas de governança de dados, compreendendo suas responsabilidades, interações e como se distribuem nas estruturas organizacionais.",
+          "descricao": "Conheça os papéis essenciais em uma estrutura de governança de dados, como Data Steward, Data Owner e CDO. Compreenda as responsabilidades de cada perfil e como eles se articulam dentro da organização para garantir a qualidade, a conformidade e o uso eficiente dos dados.",
           "projetos": ["Criação de material de divulgação sobre os papéis em governança de dados"],
           "hard_skills": [
             "Entendimento das responsabilidades de Data Owner, Data Steward, CDO e outros papéis",
@@ -202,7 +202,7 @@
         },
         {
           "nome": "Motivadores de Governança de dados",
-          "descricao": "Vantagem competitiva. Risco de reputação. Eficiência. Ganho de escala. Habilitar soluções de IA. Conformidade. ",
+          "descricao": "Explore os motivos que impulsionam iniciativas de governança de dados nas organizações, como competitividade, eficiência, conformidade e como a governança é necessária para habilitar as iniciativas de IA. Aprenda a identificar motivadores em diferentes cenários e argumentar sobre o valor estratégico da governança para o negócio.",
           "projetos": ["Identificar e elencar, dado um cenário, os principais motivadores da iniciativa de governança de dados"],
           "hard_skills": [
             "Identificação de riscos e oportunidades relacionados a dados",
@@ -230,15 +230,18 @@
         },
         {
           "nome": "Ciclo de vida dos dados",
-          "descricao": "Compreendendo o ciclo de vida dos dados",
+          "descricao": "Compreenda as etapas do ciclo de vida dos dados — da criação à eliminação — e a importância de mapear esse processo para garantir controle, valor e segurança ao longo do tempo. Neste curso, você desenvolverá a visão sistêmica necessária para atuar na governança em diferentes fases do dado.",
           "projetos": [
             "Desenhar o ciclo de vida de dados de uma organização"
           ],
           "hard_skills": [
-            "Análise e definição de ciclo de vida aplicado à dados"
+            "Análise e definição de ciclo de vida aplicado à dados",
+            "Engenharia de Prcessos",
+            "Análise de processos"
           ],
           "soft_skills": [
-            "Visão Sistêmica"
+            "Visão Sistêmica",
+            "Decomposição de problemas"
           ],
           "ferramentas_principais": [
             "Draw.io"
@@ -277,31 +280,8 @@
           "cursos": []
         },
         {
-          "nome": "Projeto Integrador - Criando uma Política de Privacidade de dados",
-          "descricao": "Neste projeto integrador, o aluno colocará em prática os conhecimentos adquiridos ao longo do nível, elaborando uma política de privacidade de dados baseada em normas e boas práticas de mercado.",
-          "projetos": [
-            "Documento de política de privacidade",
-            "Apresentação do plano de comunicação da política de privacidade"
-          ],
-          "hard_skills": [
-            "Interpretação da LGPD e outras legislações",
-            "Escrita de documentos técnicos",
-            "Aplicação de princípios de governança"
-          ],
-          "soft_skills": [
-            "Responsabilidade ética",
-            "Atenção aos detalhes",
-            "Leitura e Interpretação de documentos técnicos e jurídicos"
-          ],
-          "ferramentas_principais": [
-            "Draw.io",
-            "Editor de texto"
-          ],
-          "cursos": []
-        },
-        {
           "nome": "Metadados",
-          "descricao": "Neste bloco, o aluno entenderá o que são metadados, suas categorias (técnicos, descritivos, de negócio, operacionais) e o papel essencial que desempenham na organização e governança dos dados.",
+          "descricao": "Descubra o papel dos metadados na governança de dados e como eles ajudam a contextualizar, localizar e entender ativos de dados. Você irá explorar categorias como metadados técnicos, operacionais, de negócio e descritivos, e aprender a extrair metadados de diferentes formatos.",
           "projetos": ["Extração de metadados de tabelas, imagens e vídeos"],
           "hard_skills": [
             "Identificar e caracterizar diferentes tipos de metadados",
@@ -332,9 +312,11 @@
         },
         {
           "nome": "Qualidade de metadados",
-          "descricao": "Como avaliar diferentes metadados. Como avaliar boas descrições. Fuzzy Match. ",
+          "descricao": "Saiba como avaliar e melhorar a qualidade dos metadados, garantindo descrições consistentes, precisas e úteis. Utilize técnicas como IA e Fuzzy Matching para identificar inconsistências e implemente padrões que contribuam para a confiabilidade dos dados documentados.",
           "projetos": [
-            "aumentar a qualidade de metadados"
+            "aumentar a qualidade de metadados",
+            "usar técnicas qualitativas e quantitativas para melhorar a qualidade de metadados",
+            "uasndo IA para gerar descrições melhores"
           ],
           "hard_skills": [
             "Aplicar técnicas de Fuzzy Matching para identificação de metadados similares",
@@ -367,7 +349,7 @@
         },
         {
           "nome": "Linhagem de Dados e Descoberta de Ativos",
-          "descricao": "Técnicas e ferramentas para rastreamento e visualização da linhagem de dados. A importância da descoberta ativa de dados para governança.",
+          "descricao": "Aprenda a mapear a origem, transformação e destino dos dados por meio da linhagem. Entenda como essas informações são essenciais para auditorias, rastreabilidade e confiabilidade dos dados, além de conhecer ferramentas de mercado para apoiar esse processo.",
           "projetos": [
             "Construção de grafo de linhagem de um pipeline de dados"
           ],
@@ -402,7 +384,7 @@
         },
         {
           "nome": "Glossário de Negócio",
-          "descricao": "Problemas de dados como problemas de passagem de conhecimento. Ponte entre os dados e o negócio. ",
+          "descricao": "Construa um glossário de dados e de negócios como instrumento para promover entendimento comum entre áreas técnicas e de negócio. Aprenda a capturar, padronizar e comunicar conceitos-chave, fortalecendo a gestão do conhecimento na organização.",
           "projetos": [
             "Criação de um glossário de negócio"
           ],
@@ -425,7 +407,7 @@
         },
         {
           "nome": "Catálogo de dados",
-          "descricao": "Catálogo de dados VS Inventário de dados VS Data Marketplace. Overview das ferramentas e players de mercado. ",
+          "descricao": "Compreenda a importância dos catálogos de dados na governança e explore suas diferenças em relação a inventários e marketplaces de dados. Aprenda como relacionar dados, domínios e glossários e a avaliar ferramentas de mercado para gestão e catalogação de ativos.",
           "projetos": [
             "Administrar ativos de dados em um catálogo de dados"
           ],
@@ -446,7 +428,7 @@
         },
         {
           "nome": "Qualidade de dados",
-          "descricao": "Business Data Quality e Technical Data Quality. Engenharia e Qualidade de dados. Quem é responsável por criar as regras de qualidade?. Criando e automatizando regras de qualidade de dados. ",
+          "descricao": "Diferencie qualidade técnica e de negócio, e aprenda a criar e automatizar regras de validação com bibliotecas Python como o Pydeequ. Entenda quem deve definir essas regras e como garantir que os dados atendam a padrões consistentes e confiáveis.",
           "projetos": [],
           "hard_skills": [
             "Criação e automação de regras de qualidade de dados",
@@ -476,6 +458,29 @@
             ]
           }
           ]
+        },
+        {
+          "nome": "Projeto Integrador - Criando uma Política de Privacidade de dados",
+          "descricao": "Neste projeto integrador, o aluno colocará em prática os conhecimentos adquiridos ao longo do nível, elaborando uma política de privacidade de dados baseada em normas e boas práticas de mercado, levando em conta os o ciclo de vida dos dados e papéis e responsabilidades envolvidos",
+          "projetos": [
+            "Documento de política de privacidade",
+            "Apresentação do plano de comunicação da política de privacidade"
+          ],
+          "hard_skills": [
+            "Interpretação da LGPD e outras legislações",
+            "Escrita de documentos técnicos",
+            "Aplicação de princípios de governança"
+          ],
+          "soft_skills": [
+            "Responsabilidade ética",
+            "Atenção aos detalhes",
+            "Leitura e Interpretação de documentos técnicos e jurídicos"
+          ],
+          "ferramentas_principais": [
+            "Draw.io",
+            "Editor de texto"
+          ],
+          "cursos": []
         }
       ]
     },
@@ -489,7 +494,7 @@
       "blocos_tematicos": [
         {
           "nome": "Priorização ou Criticidade de dados",
-          "descricao": "Como identificar ativos chave. Priorização orientada à dados. Priorização orientada ao negócio. ",
+          "descricao": "Aprenda a identificar quais ativos de dados são mais críticos para a organização e como priorizá-los com base em critérios técnicos e de negócio. Desenvolva modelos práticos que consideram frequência de acesso, valor estratégico e impacto para decisões corporativas.",
           "projetos": [
             "Criar um modelo de priorizaçõ de dados baseado em acesso"
           ],
@@ -507,7 +512,7 @@
         },
         {
           "nome": "Segurança de Dados",
-          "descricao": "Acesso ao dado. Bases legais. Tempo de acesso. Revisão de acesso. Princípio do acesso mínimo. Problemas com acesso. Mal uso de dados. Mudanças nos dados. Prevenindo vazamento de dados. Analisando padrões de acesso. ",
+          "descricao": "Entenda como proteger dados ao longo de seu ciclo de vida, aplicando princípios como acesso mínimo, controle de permissões e monitoramento de uso. Aprenda a prevenir vazamentos e garantir conformidade com legislações como a LGPD, alinhando governança e segurança da informação.",
           "projetos": ["Criação de um processo para garantir o conformidade com a LGPD"],
           "hard_skills": [
             "Mapeamento de acessos e permissões",
@@ -527,7 +532,7 @@
       
         {
           "nome": "Master Data Management",
-          "descricao": "O que são dados mestres?. Dados de referência. Fatores que influenciam no MDM. Escopo. Nível de centralização. Necessidade de uso dos dados. ",
+          "descricao": "Descubra o papel dos dados mestres na integração e consistência de informações dentro das organizações. Aprenda a identificar, organizar e governar esses dados, considerando escopo, centralização e uso estratégico em diferentes contextos de negócio.",
           "projetos": ["Criação de uma base de master data"],
           "hard_skills": [
             "Identificação de dados mestres e de referência",
@@ -548,7 +553,7 @@
         },
         {
           "nome": "Dados de Referência",
-          "descricao": "O que são Dados de referência. MDM e dados de referência. Necessidade de uso dos dados. ",
+          "descricao": "Explore o que são dados de referência e como eles se relacionam com o MDM. Aprenda a identificar, padronizar e documentar esses dados para garantir consistência entre sistemas e processos, promovendo a interoperabilidade e a qualidade da informação.",
           "projetos": ["Criação de uma tabela de referência"],
           "hard_skills": [
             "Identificação de dados mestres e de referência",
@@ -569,7 +574,7 @@
         },
          {
           "nome": "Enterprise Data Standards",
-          "descricao": "O que são Data Stardards, a importância de Data Standards",
+          "descricao": "Aprenda a criar e implementar padrões de dados (data standards) para promover consistência, reutilização e governança em larga escala. Entenda como formalizar definições, regras e formatos que sustentam a integridade e a compreensão dos dados em toda a organização.",
           "projetos": ["Criação de uma política de data standards"],
           "hard_skills": [
             "Gerenciamento do conhecimento",
@@ -590,7 +595,7 @@
         },
         {
           "nome": "Engenharia e Qualidade de dados",
-          "descricao": "O gargalo da engenharia. Avaliando a qualidade de dados nos ETLs. Criando requisitos de technical data quality. ",
+          "descricao": "Aprofunde-se na relação entre engenharia de dados e qualidade. Avalie dados nos pipelines de ETL e crie requisitos técnicos de validação. Este curso é voltado para integrar boas práticas de governança na engenharia de dados, assim como discutir a responsabilidade da qualidade de dados em difrentes estapas do processo de uso dos dados.",
           "projetos": [],
           "hard_skills": [
             "Análise de ETLs com foco em qualidade de dados",
@@ -611,7 +616,7 @@
         },
         {
           "nome": "Governança e Arquitetura de dados",
-          "descricao": "Como o modelo de arquitetura interfere na governança. Centralização da arquitetura de dados VS Maturidade de dados. Diferentes estratégias para diferentes modelos de arquitetura. ",
+          "descricao": "Explore como diferentes modelos de arquitetura (centralizada, distribuída, federada) impactam a governança. Relacione decisões arquiteturais com maturidade organizacional e descubra como alinhar estratégias técnicas às necessidades de conformidade e controle.",
           "projetos": [],
           "hard_skills": [
             "Relacionar modelos arquiteturais com práticas de governança",
@@ -632,7 +637,7 @@
         },
         {
           "nome": "Governança e Business Inteligence",
-          "descricao": "Interação de Governança e Business Inteligence, o papel de governança na criação e gestão de dashboards",
+          "descricao": "Entenda o papel da governança no processo de criação de dashboards e indicadores de BI. Aprenda a estabelecer regras e padrões para o uso de dados em relatórios, promovendo alinhamento entre as áreas técnicas e o negócio, com foco em segurança e confiabilidade.",
           "projetos": ["Criar as definições de governança para o processo de criação de novos dashboards de BI"],
           "hard_skills": [
             "Entender o processo de demanda de business intellingence",
@@ -653,7 +658,7 @@
         },
         {
           "nome": "Comunicação para profissionais em governança",
-          "descricao": "Introduçõ de conceitos de comunicação como Persona, tom de voz e engajamento",
+          "descricao": "Desenvolva habilidades de comunicação essenciais para profissionais de governança de dados. Trabalhe conceitos como identificação de personas, tom de voz e estratégias de engajamento para dialogar de forma clara e eficaz com diferentes públicos da organização.",
           "projetos": [],
           "hard_skills": [
             "Identificação de Personas",
@@ -667,7 +672,7 @@
         },
         {
           "nome": "Projeto integrador - Mapeamento do processo end-to-end de ingestão",
-          "descricao": "Neste projeto, o aluno será responsável por mapear o processo de ingestão, da necessidade de negócio até o momento da ingestão no Lake",
+          "descricao": "Neste projeto final do nível intermediário, você irá mapear todo o processo de ingestão de dados — da demanda de negócio até o carregamento em um data lake. O desafio envolve documentação técnica, visão de processo e alinhamento com os requisitos de governança.",
           "projetos": [
             "Mapeamento do proceso end-to-end",
             "Documentação dos requisitos de governança"
@@ -699,8 +704,8 @@
       "blocos_tematicos": [
         {
           "nome": "Diferentes Perfis e Carreiras em governança de dados",
-          "descricao": "Analistas de Qualidade de dados. Analistas de MDM. Analistas de governança de dados (central). Analistas de governança de dados (unidades de negócio). Data Steward. Engenheiro/Arquiteto de Governança de dados. ",
-          "projetos": [],
+          "descricao": "Conheça os diversos papéis envolvidos na governança de dados — como analistas de MDM, qualidade, Data Steward e arquitetos de dados — e entenda como cada função contribui para o ecossistema de dados. Explore caminhos de carreira e descubra como estruturar equipes com competências complementares. Entenda como cada função é mais associada à um perfil de profissional e entenda melhor as organizações que mais precisam de governança de dados.",
+          "projetos": ["Analisar os perils e carreiras e entender qual pode ser o mais apropriado para você."],
           "hard_skills": [
             "Identificar competências de cada papel na governança",
             "Relacionar responsabilidades com estruturas organizacionais",
@@ -719,8 +724,8 @@
         },
         {
           "nome": "Governança de dados na Cloud",
-          "descricao": "Overview de como diferentes serviços de nuvem possuem ferramentas para governança de dados. Governança de dados na Microsoft. ",
-          "projetos": [],
+          "descricao": "Explore como a governança de dados é aplicada em ambientes de nuvem como Azure, AWS e GCP. Conheça os principais serviços disponíveis para catalogação, controle de acesso e compliance, e aprenda a avaliar trade-offs e arquiteturas multicloud com foco em governança",
+          "projetos": ["Descrever as diferentes ferramentas de governança de dados em provedores de cloud AWS, Azure e Google."],
           "hard_skills": [
             "Conhecimento de serviços de governança em nuvem (Azure, AWS, GCP)",
             "Comparar soluções de catálogos, segurança e compliance na nuvem",
@@ -740,8 +745,8 @@
         },
         {
           "nome": "Produtos de Dados",
-          "descricao": "Produtos de dados VS Dados como Produtos. A ligação entre os ativos técnicos e o negócio. Criando pontes e servindo o negócio. ",
-          "projetos": [],
+          "descricao": "Compreenda o conceito de produtos de dados e a abordagem de “dados como produto”. Aprenda a conectar ativos técnicos às necessidades do negócio e desenvolva uma mentalidade de produto para construir soluções escaláveis, reutilizáveis e orientadas ao cliente interno.",
+          "projetos": ["Criação da documentação de um produto de dados e todos os ativos relacionados à eles"],
           "hard_skills": [
             "Compreensão de produtos de dados",
             "Relacionar dados com objetivos de negócio",
@@ -761,7 +766,7 @@
         },
         {
           "nome": "Camada Semântica",
-          "descricao": "Entenda o que é uma camada semântica, como ela se relaciona com os dados e como permite o entendimento compartilhado entre negócio e tecnologia.",
+          "descricao": "Descubra como a camada semântica facilita o entendimento compartilhado entre áreas técnicas e de negócio. Aprenda a modelar conceitos, entidades e métricas de forma lógica, conectando os dados físicos à linguagem de negócios por meio de ferramentas como Power BI .",
           "projetos": [],
           "hard_skills": [
             "Modelagem de conceitos e entidades de negócio",
@@ -775,7 +780,6 @@
           ],
           "ferramentas_principais": [
             "Power BI",
-            "Looker",
             "Ferramentas de modelagem semântica"
           ],
           "cursos": []
@@ -783,17 +787,25 @@
       
         {
           "nome": "Ontologia orientada à dados",
-          "descricao": "Conceito de ontologia. Modelos de ontologia para dados. Sistemas orientados à ontologias. ",
+          "descricao": "Explore os fundamentos das ontologias aplicadas a dados e como modelos orientados a ontologia apoiam o entendimento, a padronização e a integração de informações. Descubra como essas abordagens impulsionam soluções em contextos complexos e automatizados.",
           "projetos": [],
-          "hard_skills": [],
-          "soft_skills": [],
+          "hard_skills": [
+            "Ontologia orientada a dados",
+            "Capacidade de descrever conceitos e entidades",
+            "Escrita clara e objetiva"
+          ],
+          "soft_skills": [
+            "Capacidade de criar definições claras",
+            "Capacidade de mediação",
+            "Entendimento de necessidades de diversas áreas"
+            ],
           "ferramentas_principais": [],
           "cursos": []
         },
         {
           "nome": "A ponte entre o negócio e os dados",
-          "descricao": "Como construir pontes entre áreas técnicas e áreas de negócio. Práticas para colaboração, entendimento mútuo e alinhamento estratégico.",
-          "projetos": [],
+          "descricao": "Aprenda a construir conexões efetivas entre áreas técnicas e de negócio. Desenvolva habilidades de escuta, facilitação e tradução de requisitos para garantir que soluções de dados estejam alinhadas com os objetivos estratégicos da organização.",
+          "projetos": ["Criar um plano para abordar e educar unidades de negócio em governança de dados. Atender demandas de governança de dados"],
           "hard_skills": [
             "Tradução de requisitos de negócio em soluções técnicas",
             "Facilitação de workshops de entendimento de dados",
@@ -812,51 +824,9 @@
           "cursos": []
         },
         {
-          "nome": "Função de negócio, serviço de negócio e valor",
-          "descricao": "Compreenda como funções e serviços de negócio se relacionam com os dados e como essa relação pode gerar valor para a organização.",
-          "projetos": [],
-          "hard_skills": [
-            "Mapeamento de processos e serviços de negócio",
-            "Relacionamento entre serviços e ativos de dados",
-            "Mensuração de valor gerado por dados"
-          ],
-          "soft_skills": [
-            "Visão estratégica",
-            "Relacionamento com áreas de negócio",
-            "Tomada de decisão orientada a valor"
-          ],
-          "ferramentas_principais": [
-            "Bizagi",
-            "Draw.io",
-            "Power BI"
-          ],
-          "cursos": []
-        },
-        {
-          "nome": "Identificando impacto através dos Serviços de negócio",
-          "descricao": "Aprenda como analisar o impacto de mudanças de dados a partir dos serviços de negócio associados. Antecipação de riscos e impactos.",
-          "projetos": [],
-          "hard_skills": [
-            "Mapeamento de dependências de dados e serviços",
-            "Análise de impacto em mudanças de dados",
-            "Documentação de cenários de risco"
-          ],
-          "soft_skills": [
-            "Pensamento de impacto",
-            "Capacidade de antecipação",
-            "Visão de processos"
-          ],
-          "ferramentas_principais": [
-            "Draw.io",
-            "Excel",
-            "PowerPoint"
-          ],
-          "cursos": []
-        },
-        {
           "nome": "Governança de dados e Governança de TI",
-          "descricao": "Relacionar os papéis, objetivos e escopos da governança de dados e da governança de TI, entendendo como se complementam e diferem.",
-          "projetos": [],
+          "descricao": "Explore as diferenças e intersecções entre governança de dados e governança de TI. Relacione frameworks como COBIT e DAMA-DMBOK e compreenda como alinhar os dois domínios para fortalecer a governança corporativa de forma integrada.",
+          "projetos": ["Identificar e relacionar Funções de Negócio e os domínios de dados"],
           "hard_skills": [
             "Diferenciar governança de dados e de TI",
             "Relacionar frameworks (COBIT, DAMA-DMBOK)",
@@ -876,34 +846,44 @@
         },
         {
           "nome": "Estratégia de dados",
-          "descricao": "Bases de estratégia de dados. Porque não há escala em dados sem governança.",
-          "projetos": [],
+          "descricao": "Entenda como construir uma estratégia de dados alinhada aos objetivos de negócio. Compreenda por que a governança é condição essencial para escalar o uso de dados e como integrar dados, pessoas e processos para gerar impacto sustentável.",
+          "projetos": [
+            "Identificar riscos dos projetos de dados",
+            "Avaliar os pilares da estratégias de dados de uma organização"
+          ],
           "hard_skills": [
-            "Identificar conceitos de estretégia de dados"
+            "Identificar conceitos de estretégia de dados",
+            "Identificação de riscos organizacionais"
           ],
           "soft_skills": [
-            "relacionar conceitos de negócio e de dados"
+            "relacionar conceitos de negócio e de dados",
+            "Compreender a estratégia de dados como parte da estratégia da organização"
           ],
-          "ferramentas_principais": [],
+          "ferramentas_principais": ["Draw.io"],
           "cursos": []
         },
         {
-          "nome": "Maturidade das iniciativas de governança de dados",
-          "descricao": "Como avaliar e aumentar a maturidade das iniciativas da governança de dados",
-          "projetos": [],
+          "nome": "Maturidade de dados",
+          "descricao": "Aprenda a avaliar a maturidade de iniciativas de governança de dados com base em indicadores e frameworks. Descubra como identificar lacunas, propor melhorias e estruturar planos de evolução da maturidade organizacional no uso e gestão dos dados.",
+          "projetos": [
+            "Avaliação da maturidade de organização em relação à dados",
+            "Reconhecer heterogeniedade em difrentes unidades de negócio",
+            "Entender expectativas"
+          ],
           "hard_skills": [
             "Avaliar indicadores de maturidade de dados na organização",
             "Avaliar a maturidade das ações de governança de dados na organização"
           ],
           "soft_skills": [
-            "Capacidade de avaliaçãod de maturidade"
+            "Capacidade de avaliação de maturidade",
+            "Comunicação com áreas de negócio"
           ],
-          "ferramentas_principais": [],
+          "ferramentas_principais": ["Draw.io"],
           "cursos": []
         },
         {
-          "nome": "Projeto integrador - Avaliando a maturidade de dados da organização",
-          "descricao": "Neste projeto, o aluno será responsável por criar uma forma orientada à dados de medir a maturidade de dados de diferentes domínios de dados da organização",
+          "nome": "Projeto integrador - Identificando gaps entre a maturidade de dados da organização e a estratégia",
+          "descricao": "Neste projeto integrador, você irá desenvolver uma abordagem baseada em dados para medir a maturidade de diferentes domínios da organização. A partir disso, será realizada uma analise comparativa entre os objetivos estratégicos de dados e a maturidade da organização e suas unidades de negócio. Além de identificar oportunidades de evolução, você será responsável por documentar os requisitos técnicos e de governança necessários.",
           "projetos": [
             "Criação de uma forma de medir a maturidade",
             "Documentação dos requisitos de governança"

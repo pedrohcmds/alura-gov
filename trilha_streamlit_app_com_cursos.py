@@ -64,7 +64,7 @@ h6 {
 """, unsafe_allow_html=True)
 
 # JSON da trilha
-with open("formacao_analista_governanca_dados_completo.json", "r", encoding="utf-8") as f:
+with open("formacao_analista_governanca_dados_com_aulas.json", "r", encoding="utf-8") as f:
     trilha = json.load(f)
 
 # Exibição
@@ -104,6 +104,9 @@ for etapa in trilha["ementa"]:
             st.markdown("##### 🛠 Ferramentas")
             for ferramenta in bloco.get("ferramentas_principais", []):
                 st.markdown(f"<p style='margin-left: 32px; font-size: 16px;'>🔹 {ferramenta}</p>", unsafe_allow_html=True)
+
+
+            
 
             cursos = bloco.get("cursos", [])
             if cursos:
@@ -146,3 +149,11 @@ for etapa in trilha["ementa"]:
 """, unsafe_allow_html=True)
                             else:
                                 st.markdown(f"- {nome}")
+                            
+                             # --- Aulas ---
+            aulas = bloco.get("aulas", [])
+            if aulas:
+                st.markdown("##### 📚 Aulas")
+                for aula in aulas:
+                    with st.expander(f"📖 {aula['titulo']}"):
+                        st.markdown(f"<p style='margin-left: 20px; font-size: 15px;'>{aula['descricao']}</p>", unsafe_allow_html=True)
